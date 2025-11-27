@@ -1,24 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* website_slides
+# * website_slides
 #
 # Translators:
 # Wil Odoo, 2025
 # Junko Augias, 2025
 #
+# "Junko Augias (juau)" <juau@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 18:36+0000\n"
-"PO-Revision-Date: 2024-09-25 09:42+0000\n"
-"Last-Translator: Junko Augias, 2025\n"
-"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
+"PO-Revision-Date: 2025-11-12 08:27+0000\n"
+"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
+"Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
+"website_slides/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__members_engaged_count
@@ -1370,7 +1373,7 @@ msgstr "活動"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "例外活動文字装飾"
+msgstr "例外の活動を示す装飾"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__activity_state
@@ -1500,7 +1503,7 @@ msgstr "全ての参加者情報"
 #: model:ir.actions.act_window,name:website_slides.slide_channel_action_overview
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_all
 msgid "All Courses"
-msgstr "全てのコース"
+msgstr "すべてのコース"
 
 #. module: website_slides
 #. odoo-javascript
@@ -2158,7 +2161,7 @@ msgstr "コースを完了"
 #: model:gamification.challenge,name:website_slides.badge_data_profile_challenge
 #: model_terms:gamification.badge,description:website_slides.badge_data_profile
 msgid "Complete your profile"
-msgstr "プロフィールを完成させる"
+msgstr "プロフィールを完成"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_partner__completed
@@ -2239,9 +2242,8 @@ msgstr "おめでとうございます、最終ランクに到達しました！
 msgid ""
 "Congratulations, you've created your first course.<br/>Click on the title of "
 "this content to see it in fullscreen mode."
-msgstr ""
-"おめでとうございます、最初のコースが作成されました。<br/>このコンテンツのタイ"
-"トルをクリックしてフルスクリーンモードで見てみましょう。"
+msgstr "おめでとうございます、最初のコースが作成されました。<br/"
+">このコンテンツの件名をクリックしてフルスクリーンモードで見てみましょう。"
 
 #. module: website_slides
 #. odoo-javascript
@@ -2316,7 +2318,7 @@ msgstr "コンテンツタグ"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Content Title"
-msgstr "コンテンツタイトル"
+msgstr "コンテンツ件名"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
@@ -2517,7 +2519,7 @@ msgstr "コースタグ"
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_form_add
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid "Course Title"
-msgstr "コースタイトル"
+msgstr "コース件名"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_tree
@@ -3360,7 +3362,7 @@ msgstr "コースの役に立つ <b>説明</b>を加えましょう。"
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 msgid "Give your course an engaging <b>Title</b>."
-msgstr "コースに魅力的な<b>タイトル</b>をつけましょう。"
+msgstr "コースに魅力的な<b>件名</b>をつけましょう。"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.user_profile_content
@@ -3957,7 +3959,7 @@ msgstr "本コースのスライドを評価(いいね/良くない)するには
 #: model:gamification.badge,name:website_slides.badge_data_profile
 #: model:gamification.goal.definition,name:website_slides.badge_data_profile_goal
 msgid "Know yourself"
-msgstr "自己紹介"
+msgstr "プロフィール完了者"
 
 #. module: website_slides
 #: model_terms:slide.channel,description:website_slides.slide_channel_demo_3_furn0
@@ -4809,7 +4811,7 @@ msgstr "ポイント報酬"
 #: model:gamification.badge,name:website_slides.badge_data_course
 #: model:gamification.goal.definition,name:website_slides.badge_data_course_goal
 msgid "Power User"
-msgstr "パワーユーザ"
+msgstr "パワーユーザー"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
@@ -5249,7 +5251,7 @@ msgstr "SEO最適化済"
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__message_has_sms_error
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "SMS配信エラー"
+msgstr "SMS送信エラー"
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_slide__embed_code_external
@@ -5331,7 +5333,7 @@ msgstr "セクション"
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
 msgid "Section Subtitle"
-msgstr "セクションサブタイトル"
+msgstr "セクションサブ件名"
 
 #. module: website_slides
 #. odoo-javascript
@@ -5598,7 +5600,7 @@ msgstr "サインインしてコースに参加し、あなたの回答を確認
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_main
 msgid "Sign up"
-msgstr "サインアップ"
+msgstr "登録"
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel__visibility__connected
@@ -5906,8 +5908,8 @@ msgid ""
 "you want.</br>A <b>Preview</b> of your file is available on the right side "
 "of the screen."
 msgstr ""
-"レッスンの<b>タイトル</b>は自動入力されていますが、必要に応じて変更することが"
-"できます。</br>ファイルの<b>プレビュー</b>は画面の右側にあります。"
+"レッスンの<b>件名</b>は自動入力されていますが、必要に応じて変更することができ"
+"ます。</br>ファイルの<b>プレビュー</b>は画面の右側にあります。"
 
 #. module: website_slides
 #: model:ir.model.constraint,message:website_slides.constraint_slide_channel_check_enroll
@@ -5969,7 +5971,7 @@ msgstr "コースカードに表示される説明文"
 msgid ""
 "The description that is displayed on top of the course page, just below the "
 "title"
-msgstr "コースページの上部、タイトルのすぐ下に表示される説明文"
+msgstr "コースページの上部、件名のすぐ下に表示される説明文"
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__website_url
@@ -6154,7 +6156,7 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_category.xml:0
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__name
 msgid "Title"
-msgstr "タイトル"
+msgstr "件名"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_cards
@@ -6399,7 +6401,7 @@ msgstr "動画"
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_category.js:0
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__video_url
 msgid "Video Link"
-msgstr "ビデオリンク"
+msgstr "動画リンク"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__video_source_type
@@ -6564,7 +6566,7 @@ msgstr "サイトメタキーワード"
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_meta_title
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_meta_title
 msgid "Website meta title"
-msgstr "サイトメタタイトル"
+msgstr "サイトメタ件名"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_meta_og_img
@@ -7232,7 +7234,7 @@ msgstr "またはコースを離れる"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_join
 msgid "request"
-msgstr "要求"
+msgstr "申請"
 
 #. module: website_slides
 #. odoo-javascript

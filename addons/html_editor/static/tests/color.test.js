@@ -558,3 +558,95 @@ test("should not split unsplittable element when applying color", async () => {
             '<div style="color: rgb(255, 0, 0);"><p>t<font style="color: rgb(0, 0, 255);">[es]</font>t</p></div>',
     });
 });
+
+test("should be able to apply color on icon along with text", async () => {
+    await testEditor({
+        contentBefore:
+            '<p>a[bc\ufeff<span class="fa fa-glass" contenteditable="false">\u200b</span>\ufeffde]f</p>',
+        stepFunction: setColor("rgb(255, 0, 0)", "color"),
+        contentAfterEdit:
+            '<p>a<font style="color: rgb(255, 0, 0);">[bc</font><font style="color: rgb(255, 0, 0);">\ufeff<span class="fa fa-glass" contenteditable="false">\u200b</span>\ufeff</font><font style="color: rgb(255, 0, 0);">de]</font>f</p>',
+        contentAfter:
+            '<p>a<font style="color: rgb(255, 0, 0);">[bc</font><font style="color: rgb(255, 0, 0);"><span class="fa fa-glass"></span></font><font style="color: rgb(255, 0, 0);">de]</font>f</p>',
+    });
+});
+
+test("should be able to change color of an icon", async () => {
+    await testEditor({
+        contentBefore:
+            '<p><font style="color: rgb(255, 0, 0);">\ufeff<span class="fa fa-glass" contenteditable="false">[]\u200b</span>\ufeff</font></p>',
+        stepFunction: setColor("rgb(255, 255, 0)", "color"),
+        contentAfterEdit:
+            '<p><font style="color: rgb(255, 255, 0);">\ufeff[<span class="fa fa-glass" contenteditable="false">\u200b</span>]\ufeff</font></p>',
+        contentAfter:
+            '<p><font style="color: rgb(255, 255, 0);">[<span class="fa fa-glass"></span>]</font></p>',
+    });
+});
+
+test("should be able to remove color of an icon", async () => {
+    await testEditor({
+        contentBefore:
+            '<p><font style="color: rgb(255, 0, 0);">\ufeff<span class="fa fa-glass" contenteditable="false">[]\u200b</span>\ufeff</font></p>',
+        stepFunction: setColor("", "color"),
+        contentAfterEdit:
+            '<p>\ufeff[<span class="fa fa-glass" contenteditable="false">\u200b</span>]\ufeff</p>',
+        contentAfter: '<p>[<span class="fa fa-glass"></span>]</p>',
+    });
+});
+
+test("doesn't change the color of the whole section when there's an icon next to the selection", async () => {
+    await testEditor({
+        contentBefore: `
+        <section style="color: rgb(255, 0, 0);">
+            <p>a[bc]d</p>
+            \ufeff<span class="fa fa-glass" contenteditable="false">\u200b</span>\ufeff
+        </section>`,
+        stepFunction: setColor("rgb(0, 0, 255)", "color"),
+        contentAfterEdit: `
+        <section style="color: rgb(255, 0, 0);">
+            <p>a<font style="color: rgb(0, 0, 255);">[bc]</font>d</p>
+            \ufeff<span class="fa fa-glass" contenteditable="false">\u200b</span>\ufeff
+        </section>`,
+        contentAfter: `
+        <section style="color: rgb(255, 0, 0);">
+            <p>a<font style="color: rgb(0, 0, 255);">[bc]</font>d</p>
+            <span class="fa fa-glass"></span>
+        </section>`,
+    });
+});
+
+test("should remove remove color from `td`", async () => {
+    await testEditor({
+        contentBefore: unformat(`
+                <table style="color: red;" class="o_selected_table"><tbody>
+                    <tr><td class="o_selected_td">[ab]</td></tr>
+                    <tr><td>ab</td></tr>
+                </tbody></table>
+            `),
+        stepFunction: setColor("", "color"),
+        contentAfter: unformat(`
+            <table>
+                <tbody>
+                    <tr><td>[ab]</td></tr>
+                    <tr><td style="color: red;">ab</td></tr>
+                </tbody>
+            </table>
+        `),
+    });
+});
+
+test("should be able to remove color applied by 'text-*' classes (1)", async () => {
+    await testEditor({
+        contentBefore: '<p><span class="text-muted">[a]</span></p>',
+        stepFunction: setColor("", "color"),
+        contentAfter: "<p>[a]</p>",
+    });
+});
+
+test("should be able to remove color applied by 'text-*' classes (2)", async () => {
+    await testEditor({
+        contentBefore: '<p><a href="#" class="text-muted">[a]</a></p>',
+        stepFunction: setColor("", "color"),
+        contentAfter: '<p><a href="#">[a]</a></p>',
+    });
+});

@@ -1,26 +1,29 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* base
-# 
+# * base
+#
 # Translators:
 # Nurlan Farajov, 2024
 # Jumshud Sultanov <cumshud@gmail.com>, 2025
 # Nurlan Farajov <coolinuxoid@gmail.com>, 2025
 # erpgo translator <jumshud@erpgo.az>, 2025
-# 
+# ERPGo Odoo <erpgo.odoo@gmail.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-13 15:13+0000\n"
-"PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: erpgo translator <jumshud@erpgo.az>, 2025\n"
-"Language-Team: Azerbaijani (https://app.transifex.com/odoo/teams/41243/az/)\n"
+"PO-Revision-Date: 2025-11-21 06:43+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Azerbaijani <https://translate.odoo.com/projects/odoo-18/base/"
+"az/>\n"
+"Language: az\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: az\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_at_reports
@@ -303,7 +306,8 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Bu modul Satış Məntəqəsi üçün xüsusi Satış Komandası əlavə edir.  Bu, satış məntəqənizi daha asanlıqla görmək və idarə etmək imkanı verir.\n"
+"Bu modul Satış Nöqtəsi üçün xüsusi Satış Komandası əlavə edir.  Bu, satış "
+"nöqtənizi daha asanlıqla görmək və idarə etmək imkanı verir.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_pos_sale_margin
@@ -326,10 +330,14 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Bu modul restoran idarə etməsi üçün xüsusi bir neçə xüsusiyyətləri Satış məntəqəsinə əlavə edir:\n"
-"- Fakturaların Çap Olunması: Sifarişin ödənilməsindən əvvəl qəbzi çap etməyə imkan verir\n"
-"- Fakturanın ayrılması: Sifarişləri müxtəlif sifarişlərə bölməyə imkan verir\n"
-"- Sifarişin Mətbəxdə Çap Olunması: mətbəx və ya bar printerləri ilə sifariş yeniliklərini çap etməyə imkan verir\n"
+"Bu modul restoran idarə etməsi üçün xüsusi bir neçə xüsusiyyətləri Satış "
+"nöqtəsinə əlavə edir:\n"
+"- Fakturaların Çap Olunması: Sifarişin ödənilməsindən əvvəl qəbzi çap etməyə "
+"imkan verir\n"
+"- Fakturanın ayrılması: Sifarişləri müxtəlif sifarişlərə bölməyə imkan "
+"verir\n"
+"- Sifarişin Mətbəxdə Çap Olunması: mətbəx və ya bar printerləri ilə sifariş "
+"yeniliklərini çap etməyə imkan verir\n"
 "\n"
 
 #. module: base
@@ -374,7 +382,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Satış məntəqələrində IoT Box olmayan Epson ePOS Printerlərindən istifadə edin\n"
+"Satış nöqtəsində IoT Box olmayan Epson ePOS Printerlərindən istifadə edin\n"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_eg_edi_eta
@@ -3414,7 +3422,7 @@ msgstr ""
 "=======================\n"
 "\n"
 "Bu modul Odoo ESC/POS ilə uyğun olan printerlər ilə çap etməyə və \n"
-"satış məntəqəsində ESC/POS idarə olunan kassa qutularını və \n"
+"satış nöqtəsində ESC/POS idarə olunan kassa qutularını və \n"
 "bu cür funksiyaya ehtiyacı olan digər modulları açmağa imkan verir.\n"
 "\n"
 
@@ -6584,20 +6592,28 @@ msgid ""
 "    Access to download the mandatory Certificate of Conformity delivered by Odoo SA (only for Odoo Enterprise users)\n"
 msgstr ""
 "\n"
-"Bu əlavə şəxsi satış (B2C) ilə bağlı məlumatların dəyişməzliyi, təhlükəsizliyi, saxlanması və arxivləşdirilməsi ilə bağlı müəyyən meyarlar təyin edən Fransız CGI art 286, I. 3oc bis texniki tələblərinə uyğun gəlir.\n"
-"-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n"
+"Bu əlavə şəxsi satış (B2C) ilə bağlı məlumatların dəyişməzliyi, "
+"təhlükəsizliyi, saxlanması və arxivləşdirilməsi ilə bağlı müəyyən meyarlar "
+"təyin edən Fransız CGI art 286, I. 3oc bis texniki tələblərinə uyğun gəlir.\n"
+"-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 "\n"
-"Fərdi şəxslərə satmaq üçün Satış Məntəqəsi tətbiqindən istifadə edirsinizsə quraşdırın.\n"
+"\n"
+"Fərdi şəxslərə satmaq üçün Satış Nöqtəsi tətbiqindən istifadə edirsinizsə "
+"quraşdırın.\n"
 "\n"
 "Modul aşağıdakı xüsusiyyətləri əlavə edir:\n"
 "\n"
-"    Dəyişməzlik: POS sifarişlərinin, fakturaların və jurnal qeydlərinin əsas məlumatlarını ləğv etmək və ya dəyişdirmək üçün bütün yolların ləğv edilməsi\n"
+"    Dəyişməzlik: POS sifarişlərinin, fakturaların və jurnal qeydlərinin əsas "
+"məlumatlarını ləğv etmək və ya dəyişdirmək üçün bütün yolların ləğv "
+"edilməsi\n"
 "\n"
 "    Təhlükəsizlik: dəyişməzliyi yoxlamaq üçün zəncir alqoritmi\n"
 "\n"
-"    Depolama: satışların həm dövr, həm də məcmu yekunların (gündəlik, aylıq, illik) hesablanması ilə avtomatik bağlanması\n"
+"    Depolama: satışların həm dövr, həm də məcmu yekunların (gündəlik, aylıq, "
+"illik) hesablanması ilə avtomatik bağlanması\n"
 "\n"
-"    Odoo SA tərəfindən təqdim olunan icbari Uyğunluq Sertifikatını endirmək üçün giriş (yalnız Odoo Enterprise istifadəçiləri üçün)\n"
+"    Odoo SA tərəfindən təqdim olunan icbari Uyğunluq Sertifikatını endirmək "
+"üçün giriş (yalnız Odoo Enterprise istifadəçiləri üçün)\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_mrp_subcontracting_purchase
@@ -9120,7 +9136,7 @@ msgstr ""
 #: code:addons/base/models/res_partner.py:0
 #: code:addons/base/models/res_users.py:0
 msgid "%s (copy)"
-msgstr "%s (surət)"
+msgstr "%s (kopya)"
 
 #. module: base
 #. odoo-python
@@ -9751,7 +9767,7 @@ msgstr "<span>Obyekt:</span>"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "<span>Other address for the company (e.g. subsidiary, ...)</span>"
-msgstr ""
+msgstr "<span>Şirkətin digər ünvanı (məsələn, köməkçi müəssisə, ...)</span>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
@@ -10523,7 +10539,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
 #: model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
 msgid "Account Security"
-msgstr ""
+msgstr "Hesab Təhlükəsizliyi"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_winbooks_import
@@ -10548,7 +10564,7 @@ msgstr "Hesab sahibinin adı, Hesab Sahibinin adından fərqli olduğu halda"
 #: model:ir.module.module,shortdesc:base.module_accountant
 #: model_terms:ir.ui.view,arch_db:base.user_groups_view
 msgid "Accounting"
-msgstr "Mühasibat Uçotu"
+msgstr "Mühasibatlıq"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_account
@@ -10810,7 +10826,7 @@ msgstr ""
 #. module: base
 #: model:ir.actions.act_window,name:base.action_view_base_language_install
 msgid "Add Languages"
-msgstr ""
+msgstr "Dil əlavə et"
 
 #. module: base
 #: model:ir.module.module,description:base.module_data_merge_helpdesk
@@ -13048,7 +13064,7 @@ msgstr ""
 #: model:ir.module.category,name:base.module_category_human_resources_approvals
 #: model:ir.module.module,shortdesc:base.module_approvals
 msgid "Approvals"
-msgstr "Təsdiqləmələr"
+msgstr "Təsdiqlər"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_approvals_purchase
@@ -13122,7 +13138,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_bank_form
 msgid "Archive"
-msgstr "Arxiv"
+msgstr "Arxivləşdirin"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.edit_menu_access_search
@@ -13144,7 +13160,7 @@ msgstr "Arxiv"
 #: model_terms:ir.ui.view,arch_db:base.view_sequence_search
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
 msgid "Archived"
-msgstr "Arxivləndi"
+msgstr "Arxivlənmiş"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__arctic/longyearbyen
@@ -13199,7 +13215,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_client__params
 msgid "Arguments sent to the client along with the view tag"
-msgstr "Teq görünüşü ilə birlikdə müştəriyə göndərilən arqumentlər"
+msgstr "Görünüş etiketi ilə birlikdə müştəriyə göndərilən arqumentlər"
 
 #. module: base
 #: model:res.currency,currency_unit_label:base.MGA
@@ -14166,8 +14182,8 @@ msgid ""
 "Automatically finds the purchase order linked to a vendor bill when using "
 "invoice extraction"
 msgstr ""
-"Faktura çıxarışından istifadə edərkən bir podratçı fakturası ilə əlaqəli "
-"satınalma sifarişini avtomatik olaraq tapır"
+"Hesab-Faktura çıxarışından istifadə edərkən bir təchizatçı qaiməsi ilə "
+"əlaqəli satınalma sifarişini avtomatik olaraq tapır"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_appointment_sale_project
@@ -14397,7 +14413,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_bakery
 msgid "Bakery Shop"
-msgstr ""
+msgstr "Çörək mağazası"
 
 #. module: base
 #: model:res.currency,currency_unit_label:base.PAB
@@ -14894,7 +14910,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_website_sale_ups
 msgid "Bill to your UPS account number"
-msgstr "UPS hesab nömrənizə hesab "
+msgstr "UPS hesab nömrəniz üzrə qaimələşdirin"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_billboard_rental
@@ -15938,7 +15954,7 @@ msgstr "Çad"
 #. module: base
 #: model:ir.actions.act_window,name:base.action_res_users_my
 msgid "Change My Preferences"
-msgstr "Mənim Seçimlərimi Dəyişin"
+msgstr "Mənim Tərcihlərimi Dəyişin"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.change_password_wizard_action
@@ -16075,7 +16091,7 @@ msgstr "Alt ID-lər"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_category__child_ids
 msgid "Child Tags"
-msgstr "Alt Teqlər"
+msgstr "Alt Etiketlər"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_server__child_ids
@@ -16546,7 +16562,7 @@ msgstr "Şirkət Təfərrüatları"
 #: model:ir.model.fields,field_description:base.field_res_partner__company_registry
 #: model:ir.model.fields,field_description:base.field_res_users__company_registry
 msgid "Company ID"
-msgstr ""
+msgstr "Şirkət İD"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner__company_registry_label
@@ -16932,7 +16948,7 @@ msgstr "Kontaktlar"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Contacts & Addresses"
-msgstr "Əlaqələr və Ünvanlar"
+msgstr "Kontaktlar və Ünvanlar"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_contacts_enterprise
@@ -17260,7 +17276,7 @@ msgstr "Ünvan kitabınızda yeni müştəri yaradın"
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_supplier_form
 msgid "Create a new vendor in your address book"
-msgstr "Ünvan kitabınızda yeni satıcı yaradın"
+msgstr "Ünvan kitabçanızda yeni təchizatçı yaradın"
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.res_partner_industry_action
@@ -17443,7 +17459,7 @@ msgstr "Yaradılmış Görüntülər"
 #: model:ir.model.fields,field_description:base.field_wizard_ir_model_menu_create__create_uid
 #: model_terms:ir.ui.view,arch_db:base.view_attachment_search
 msgid "Created by"
-msgstr "Tərəfindən yaradılıb"
+msgstr "Yaradan"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_enable_profiling_wizard__create_date
@@ -17526,7 +17542,7 @@ msgstr "Tərəfindən yaradılıb"
 #: model:ir.model.fields,field_description:base.field_reset_view_arch_wizard__create_date
 #: model:ir.model.fields,field_description:base.field_wizard_ir_model_menu_create__create_date
 msgid "Created on"
-msgstr "Tarixdə yaradıldı"
+msgstr "Yaradılma tarixi"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_attachment_form
@@ -17929,18 +17945,18 @@ msgstr ""
 #. module: base
 #: model:ir.module.category,name:base.module_category_productivity_dashboard
 msgid "Dashboard"
-msgstr "Şəxsi kabinet"
+msgstr "Məlumat Paneli"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_board
 msgid "Dashboards"
-msgstr "Şəxsi kabinetlər"
+msgstr "Məlumat Panelləri"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_productivity_data_cleaning
 #: model:ir.module.module,shortdesc:base.module_data_cleaning
 msgid "Data Cleaning"
-msgstr ""
+msgstr "Məlumat təmizliyi"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_data_recycle
@@ -18672,7 +18688,7 @@ msgstr "Göstərin"
 #: model:ir.model.fields,field_description:base.field_reset_view_arch_wizard__display_name
 #: model:ir.model.fields,field_description:base.field_wizard_ir_model_menu_create__display_name
 msgid "Display Name"
-msgstr "Göstəriləcək Ad"
+msgstr "Görünən Adı"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_hr_preparation_display
@@ -18803,7 +18819,7 @@ msgstr "Həkim"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
 msgid "Document"
-msgstr "sənəd"
+msgstr "Sənəd"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_report_layout__view_id
@@ -19391,7 +19407,7 @@ msgstr ""
 #: model:ir.ui.menu,name:base.menu_email
 #: model_terms:ir.ui.view,arch_db:base.contact
 msgid "Email"
-msgstr "Elektron poçt"
+msgstr "E-poçt"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
@@ -21213,7 +21229,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__filter
 #: model:ir.model.fields,field_description:base.field_ir_embedded_actions__filter_ids
 msgid "Filter"
-msgstr "FİLTER"
+msgstr "Filtr"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_filters__name
@@ -21243,7 +21259,7 @@ msgstr " Sənədlərim üzrə Filter"
 #: model_terms:ir.ui.view,arch_db:base.ir_filters_view_tree
 #: model_terms:ir.ui.view,arch_db:base.view_window_action_form
 msgid "Filters"
-msgstr "Filterlər"
+msgstr "Filtrlər"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.ir_filters_view_search
@@ -22232,7 +22248,7 @@ msgstr "Qrup"
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_search
 #: model_terms:ir.ui.view,arch_db:base.view_view_search
 msgid "Group By"
-msgstr "Görə Qrupla"
+msgstr "Qrupla"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups__full_name
@@ -22580,17 +22596,17 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_helpdesk_account
 msgid "Helpdesk Account"
-msgstr "Dəstək xidməti Hesabı"
+msgstr "Helpdesk Hesabı"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_helpdesk_sale
 msgid "Helpdesk After Sales"
-msgstr "Satışdan sonra Dəstək xidməti"
+msgstr "Satışdan sonra Helpdesk"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_helpdesk_fsm
 msgid "Helpdesk FSM"
-msgstr "FSM Dəstək xidməti"
+msgstr "FSM Helpdesk"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_helpdesk_fsm_sale
@@ -22620,7 +22636,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_helpdesk_repair
 msgid "Helpdesk Repair"
-msgstr "Dəstək xidməti Təmir"
+msgstr "Helpdesk Təmir"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_helpdesk_sale_loyalty
@@ -22630,7 +22646,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_helpdesk_stock
 msgid "Helpdesk Stock"
-msgstr "Dəstək xidməti Ehtiyat"
+msgstr "Helpdesk Ehtiyat"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_helpdesk_stock_account
@@ -22645,7 +22661,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_helpdesk_timesheet
 msgid "Helpdesk Timesheet"
-msgstr "Dəstək xidməti İş saatları qrafiki"
+msgstr "Helpdesk İş saatları qrafiki"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_helpdesk_holidays
@@ -23591,12 +23607,12 @@ msgstr "Tətbiq Daxilində Satınalmalar"
 #: model_terms:ir.ui.view,arch_db:base.view_currency_search
 #: model_terms:ir.ui.view,arch_db:base.view_view_search
 msgid "Inactive"
-msgstr "Pasivvlər"
+msgstr "Qeyri-aktiv"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_search
 msgid "Inactive Users"
-msgstr "Deaktiv İstifadəçilər"
+msgstr "Qeyri-aktiv İstifadəçilər"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_asset__directive__include
@@ -23806,12 +23822,12 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__company_type__person
 msgid "Individual"
-msgstr "Fiziki şəxs"
+msgstr "Fərd"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
 msgid "Individuals"
-msgstr "Fiziki şəxslər"
+msgstr "Fərdlər"
 
 #. module: base
 #: model:res.country,name:base.id
@@ -23856,7 +23872,7 @@ msgstr ""
 #. module: base
 #: model:ir.actions.act_window,name:base.res_partner_industry_action
 msgid "Industries"
-msgstr "Sənaye"
+msgstr "Sənayelər"
 
 #. module: base
 #: model:ir.model,name:base.model_res_partner_industry
@@ -24088,7 +24104,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.category,name:base.module_category_human_resources_recruitment_integration
 msgid "Integration"
-msgstr ""
+msgstr "İnteqrasiya"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_payroll_fleet
@@ -25804,7 +25820,7 @@ msgstr "Lokalizasiya"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.ir_logging_form_view
 msgid "Log"
-msgstr "Daxiletmə"
+msgstr "Daxil et"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_auth_passkey
@@ -26530,7 +26546,7 @@ msgstr ""
 #: model:res.partner.industry,name:base.res_partner_industry_C
 #: model_terms:ir.ui.view,arch_db:base.user_groups_view
 msgid "Manufacturing"
-msgstr "İstehsal"
+msgstr "İstehsalat"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_product_expiry
@@ -29103,7 +29119,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:base.action_partner_supplier_form
 msgid "Odoo helps you easily track all activities related to a vendor."
 msgstr ""
-"Odoo satıcı ilə əlaqəli bütün fəaliyyətləri asanlıqla izləməyinizə kömək "
+"Odoo təchizatçı ilə əlaqəli bütün fəaliyyətləri asanlıqla izləməyinizə kömək "
 "edir."
 
 #. module: base
@@ -30507,7 +30523,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_res_partner__same_vat_partner_id
 #: model:ir.model.fields,field_description:base.field_res_users__same_vat_partner_id
 msgid "Partner with same Tax ID"
-msgstr "Eyni vergi ID ilə Tərəfdaş "
+msgstr "Eyni VÖEN-li Tərəfdaş"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_users__partner_id
@@ -30762,7 +30778,7 @@ msgstr "Veb saytla ödəniş inteqrasiyası"
 #: model:ir.module.category,name:base.module_category_human_resources_payroll
 #: model:ir.module.module,shortdesc:base.module_hr_payroll
 msgid "Payroll"
-msgstr "Ödəniş Vərəqəsi"
+msgstr "Əmək Haqqı"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_payroll_attendance
@@ -30969,7 +30985,7 @@ msgstr "Layihə tapşırıqları haqqında  mənbələrinizi planlaşdırın"
 #: model:ir.module.category,name:base.module_category_human_resources_planning
 #: model:ir.module.module,shortdesc:base.module_planning
 msgid "Planning"
-msgstr "Planlaşdırma "
+msgstr "Planlaşdırma"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_planning_hr_skills
@@ -31077,7 +31093,7 @@ msgstr ""
 #: model:ir.module.category,name:base.module_category_sales_point_of_sale
 #: model:ir.module.module,shortdesc:base.module_point_of_sale
 msgid "Point of Sale"
-msgstr "Satış məntəqəsi"
+msgstr "Satış Nöqtəsi"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_loyalty
@@ -31251,7 +31267,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
 #: model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
 msgid "Preferences"
-msgstr "Parametrlər"
+msgstr "Tərcihlər"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_sequence__prefix
@@ -31916,7 +31932,7 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_purchase
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Purchase"
-msgstr "Satın alın"
+msgstr "Satınalma"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_requisition
@@ -31936,7 +31952,7 @@ msgstr "Satınalma Matris"
 #. module: base
 #: model:ir.module.module,summary:base.module_purchase_stock
 msgid "Purchase Orders, Receipts, Vendor Bills for Stock"
-msgstr "Satınalma sifarişləri, Qəbzlər, Ehtiyat üzrə Satıcı Hesabları"
+msgstr "Satınalma Sifarişləri, Qəbzlər, Ehtiyat üzrə Təchizatçı Qaimələri"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_repair
@@ -32393,7 +32409,7 @@ msgstr ""
 #: model:ir.module.category,name:base.module_category_human_resources_recruitment
 #: model:ir.module.module,shortdesc:base.module_hr_recruitment
 msgid "Recruitment"
-msgstr "Seçim"
+msgstr "İşə qəbul"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_recruitment_sms
@@ -32474,7 +32490,7 @@ msgstr "Törəmə serverin fəaliyyətində rekursiya aşkar edildi"
 #: model:ir.model.fields,field_description:base.field_res_users__ref
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Reference"
-msgstr "Rəy"
+msgstr "İstinad"
 
 #. module: base
 #. odoo-python
@@ -32558,7 +32574,7 @@ msgstr "Əlavədən Yenidən Yükləyin"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_cron_progress__remaining
 msgid "Remaining"
-msgstr "Qalıb"
+msgstr "Qalan"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_human_resources_remote_work
@@ -33489,7 +33505,7 @@ msgstr "Satışlar"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Sales & Purchase"
-msgstr "Satış və Alış"
+msgstr "Satışlar və Satınalma"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_async_emails
@@ -33940,7 +33956,7 @@ msgstr "Satış Kursları"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_helpdesk_sale_timesheet
 msgid "Sell Helpdesk Timesheet"
-msgstr "Dəstək Xidməti Tabelinin Satışı"
+msgstr "Helpdesk Tabelinin Satışı"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_timesheet
@@ -34371,18 +34387,18 @@ msgstr "Seyşel adaları"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups__share
 msgid "Share Group"
-msgstr "Qrupu Paylaşın"
+msgstr "Qrupu Paylaş"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner__partner_share
 #: model:ir.model.fields,field_description:base.field_res_users__partner_share
 msgid "Share Partner"
-msgstr "Tərəfdaşı Paylaşın"
+msgstr "Tərəfdaşı Paylaş"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__share
 msgid "Share User"
-msgstr "İstifadəçini Paylaşın"
+msgstr "İstifadəçini Paylaş"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.ir_filters_view_search
@@ -34492,7 +34508,7 @@ msgstr ""
 #: model:ir.module.category,name:base.module_category_sales_sign
 #: model:ir.module.module,shortdesc:base.module_sign
 msgid "Sign"
-msgstr "İşarə"
+msgstr "İmza"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_contract_salary
@@ -35225,17 +35241,17 @@ msgstr "Dövlət"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country_state__code
 msgid "State Code"
-msgstr "Ölkə Kodu"
+msgstr "Dövlət Kodu"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country_state__name
 msgid "State Name"
-msgstr "Ölkə Adı"
+msgstr "Dövlət Adı"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__state_required
 msgid "State Required"
-msgstr "Bölgə tələb olunur"
+msgstr "Dövlət tələb olunur"
 
 #. module: base
 #: model:res.country,name:base.ps
@@ -35843,7 +35859,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_res_partner__vat
 #: model:ir.model.fields,field_description:base.field_res_users__vat
 msgid "Tax ID"
-msgstr "Vergi İD-si"
+msgstr "VÖEN"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner__vat_label
@@ -35907,7 +35923,7 @@ msgstr ""
 #: model:ir.module.category,name:base.module_category_technical_settings
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 msgid "Technical Settings"
-msgstr ""
+msgstr "Texniki Parametrlər"
 
 #. module: base
 #: model:ir.actions.report,name:base.ir_module_reference_print
@@ -37887,7 +37903,7 @@ msgstr "Lidləri izlə və imkanları bağla"
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_recruitment
 msgid "Track your recruitment pipeline"
-msgstr "İşəgötürülmə prosesinizi izləyin"
+msgstr "İşə qəbul tunelinizi izləyin"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_helpdesk
@@ -38085,12 +38101,12 @@ msgstr "Növ:"
 #. module: base
 #: model:res.country,name:base.tr
 msgid "Türkiye"
-msgstr ""
+msgstr "Türkiyə"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_tr
 msgid "Türkiye - Accounting"
-msgstr ""
+msgstr "Türkiyə - Mühasibatlıq"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_tr_reports
@@ -38171,7 +38187,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale_ups
 msgid "UPS: Bill My Account"
-msgstr "UPS: Hesabımın Fakturalandırılması"
+msgstr "UPS: Hesabım üzrə qaimələşdir"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module__url
@@ -38693,12 +38709,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.module_tree
 #: model_terms:ir.ui.view,arch_db:base.module_view_kanban
 msgid "Upgrade"
-msgstr "Təkmilləşdirin"
+msgstr "Yeniləyin"
 
 #. module: base
 #: model:ir.model,name:base.model_base_module_upgrade
 msgid "Upgrade Module"
-msgstr "Modulu Təkmilləşdirin"
+msgstr "Modulu Yeniləyin"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_attachment__url
@@ -39186,17 +39202,17 @@ msgstr ""
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_0
 msgid "Vendor"
-msgstr "Podratçı"
+msgstr "Təchizatçı"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_3way_match
 msgid "Vendor Bill: Release to Pay"
-msgstr "Təchizatçı Fakturası: Ödəmədə Sərbəstlik"
+msgstr "Təchizatçı Qaiməsi: Ödəmədə Sərbəstlik"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_supplier_form
 msgid "Vendors"
-msgstr "Podratçılar"
+msgstr "Təchizatçılar"
 
 #. module: base
 #: model:res.country,name:base.ve
@@ -39320,7 +39336,7 @@ msgstr "Müştərilər üçün canlı danışıq sessiyalarına baxın"
 #: model_terms:ir.ui.view,arch_db:base.view_view_tree
 #: model_terms:ir.ui.view,arch_db:base.view_window_action_form
 msgid "Views"
-msgstr "Baxışlar"
+msgstr "Görüntülər"
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_ui_view
@@ -39618,12 +39634,12 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_helpdesk
 msgid "Website Helpdesk"
-msgstr "Veb sayt Dəstək Xidməti"
+msgstr "Veb sayt Helpdesk"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_helpdesk_livechat
 msgid "Website IM Livechat Helpdesk"
-msgstr "Veb sayt IM Livechat Dəstək Xidməti"
+msgstr "Veb sayt IM Livechat Helpdesk"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_jitsi
@@ -39690,7 +39706,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_helpdesk_slides
 msgid "Website Slides Helpdesk"
-msgstr "Veb sayt Slaydları üçün Dəstək Xidməti"
+msgstr "Veb sayt Slaydları üçün Helpdesk"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_studio

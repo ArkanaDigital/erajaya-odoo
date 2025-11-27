@@ -427,6 +427,30 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
         self.assertRecordValues(invoice, [{'payment_state': 'not_paid'}])
         self.assertRecordValues(payment.move_id.line_ids, [{'reconciled': True}] * 2)
 
+    def test_bill_state_change_on_payment_state(self):
+        """Test that bill payment state changes correctly when payment state transitions occur.
+        • Draft payment case: Bill state reverts to 'not_paid' when payment is drafted
+        • Payment unlink case: Bill state reverts to 'not_paid' when payment is deleted
+        """
+        bill = self.init_invoice('in_invoice', post=True, partner=self.partner_a, products=self.product_a)
+
+        # We have to test it without any Outstanding Payment account set in Journal
+        self.bank_journal_1.outbound_payment_method_line_ids.payment_account_id = False
+
+        payment = self.env['account.payment.register']\
+            .with_context(active_model='account.move', active_ids=bill.ids)\
+            .create({})\
+            ._create_payments()
+        self.assertEqual(bill.payment_state, self.env['account.move']._get_invoice_in_payment_state())
+
+        payment.action_draft()
+        self.assertEqual(payment.state, 'draft')
+        self.assertEqual(payment.invoice_ids.payment_state, 'not_paid')
+
+        payment.action_post()
+        payment.unlink()
+        self.assertEqual(bill.payment_state, 'not_paid')
+
     def test_payment_without_default_company_account(self):
         """ The purpose of this test is to check the specific behavior when duplicating an inbound payment, then change
         the copy to an outbound payment when we set the outstanding accounts (payments and receipts) on a journal but
@@ -653,12 +677,12 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
         }])
         invoice_1.action_post()
         register_payment_and_assert_state(invoice_1, 100.0, is_community=True)
-        self.assertTrue(invoice_1.matched_payment_ids.move_id)
+        self.assertTrue(invoice_1.reconciled_payment_ids.move_id)
 
         invoice_2 = invoice_1.copy()
         invoice_2.action_post()
         register_payment_and_assert_state(invoice_2, 100.0, is_community=False)
-        self.assertFalse(invoice_2.matched_payment_ids.move_id)
+        self.assertFalse(invoice_2.reconciled_payment_ids.move_id)
 
     def test_payment_confirmation_with_bank_outstanding_account(self):
         """ Ensures that when the outstanding account of the payment method is set to a bank,
@@ -676,6 +700,25 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
         })
         payment.action_post()
         self.assertEqual(payment.state, 'paid')
+
+    def test_payment_memo_account_move_ref_inverse(self):
+        ''' Ensure that when the account payment's memo is updated,
+            the related account move's ref is also updated.
+        '''
+        bank_journal = self.company_data['default_journal_bank']
+        bank_journal.inbound_payment_method_line_ids.payment_account_id = self.inbound_payment_method_line.payment_account_id
+        payment = self.env['account.payment'].create({
+            'payment_type': 'inbound',
+            'partner_type': 'customer',
+            'partner_id': self.partner_a.id,
+            'journal_id': bank_journal.id,
+            'amount': 2629,
+            'memo': 'Test Memo'
+        })
+        payment.action_post()
+        payment.write({'memo': 'Updated Memo'})
+
+        self.assertEqual(payment.move_id.ref, payment.memo)
 
     def test_payment_state_with_unreconciliable_outstanding_account(self):
         unreconciliable_account = self.env['account.account'].create({
